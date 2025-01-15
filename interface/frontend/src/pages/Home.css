@@ -1,0 +1,127 @@
+/* Styles généraux */
+.home-container {
+  font-family: Arial, sans-serif;
+  text-align: left; /* Texte aligné à gauche */
+  padding: 20px;
+  background-color: #f8f9fa; /* Fond clair */
+  color: #333; /* Couleur de texte principale */
+}
+
+/* Section principale (Hero) */
+.hero-section {
+  display: flex;
+  align-items: center;
+  gap: 80px; /* Espace entre le texte et l'image */
+  background-color: #ffffff; /* Fond blanc */
+  padding: 40px 20px; /* Padding réduit */
+  margin-bottom: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+.hero-content {
+  flex: 1; /* Prend l'espace disponible */
+}
+
+.hero-content h1 {
+  font-size: 5.5rem; /* Taille du titre réduite */
+  margin-bottom: 60px;
+  color: #333; /* Titre en noir */
+  font-weight: bold; /* Texte en gras */
+}
+
+.hero-content p {
+  font-size: 1.7rem; /* Taille du texte réduite */
+  margin-bottom: 40px;
+  color: #666; /* Texte gris */
+}
+
+.join-button {
+  background-color: #f02278; /* Bouton rose */
+  color: white;
+  border: none;
+  padding: 12px 30px; /* Taille du bouton ajustée */
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-left: 200px;
+  border-radius: 20px;
+  font-weight: bold; /* Texte en gras */
+  transition: background-color 0.3s ease;
+  width: fit-content; /* Ajuste la largeur au contenu */
+  text-decoration: none; /* Supprime le soulignement */
+}
+
+.join-button:hover {
+  background-color: #f04444dc; /* Rose plus foncé au survol */
+}
+
+.hero-image {
+  width:  380px; /* Taille de l'image */
+  height: 490px; /* Taille de l'image */
+  border-radius: 190px; /* Bord arrondi */
+  object-fit: cover; /* Pour que l'image s'adapte */
+}
+
+/* Section des dernières mises à jour */
+.latest-updates {
+  background-color: #ffffff; /* Fond blanc */
+   /* Padding réduit */
+  padding: 50px 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  margin-bottom: 10px;
+}
+
+.latest-updates h2 {
+  font-size: 2.5rem; /* Taille du titre réduite */
+  margin-bottom: 15px;
+  color: #333; /* Titre en noir */
+  font-weight: bold; /* Texte en gras */
+}
+
+.books-grid {
+  display: flex;
+  justify-content:center; /* Alignement  */
+  gap: 40px; /* Espace entre les livres */
+}
+
+.book-card {
+  width: 150px; /* Taille réduite des cartes */
+  text-align: center;
+  background-color: #f8f9fa; /* Fond clair pour les cartes */
+  padding: 15px; /* Padding réduit */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+.book-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px; /* Marge réduite */
+}
+
+.book-card p {
+  font-size: 0.9rem; /* Taille du texte réduite */
+  margin-top: 10px;
+  font-weight: bold; /* Texte en gras */
+  color: #333; /* Texte en noir */
+}
+.see-more-button {
+  background-color: #f02278; /* Bouton rose */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.see-more-button:hover {
+  background-color: #f04444dc; /* Rose plus foncé au survol */
+}

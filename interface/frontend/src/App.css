@@ -1,0 +1,58 @@
+/* Styles généraux */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+  background-color: #ffffff; /* Fond blanc */
+  color: #3d6b3b; 
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+.logo {
+  display:flex;
+  align-items: center;
+  
+}
+
+.logo img {
+  height: 60px; /* Taille du logo */
+  width: 20 px;
+  margin-right: 10px;
+ 
+  
+}
+
+.nav {
+  display:flex;
+  gap: 2rem;
+  margin-right: 70px;
+}
+
+.nav a {
+  color: #3d6b3b; /* Texte en noir */
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold; /* Texte en gras */
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: #f04444dc; /* Rose au survol */
+}
+
+/* Footer */
+footer {
+  background-color: #ffffff; /* Fond blanc */
+  color: #333; /* Texte en noir */
+  padding: 0.5rem;
+  text-align: center;
+  font-weight: bold; /* Texte en gras */
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
